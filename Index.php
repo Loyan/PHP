@@ -3,11 +3,11 @@
 <title>shirts</title>
 </head>
 <body>
-<h1> shirt's table</h1>
+<h1> shirts table</h1>
 <ul>
   <li><a href="create.php">create table in db</a></li>
-  <li><a href="add.php">add shirt's data</a></li>
-  <li><a href="list.php">list shirt's data</a></li>
+  <li><a href="add.php">add shirts data</a></li>
+  <li><a href="list.php">list shirts data</a></li>
 </ul>
 </body>
 </html>
