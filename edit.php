@@ -1,15 +1,15 @@
 <html>
 <head>
-	<title>Add a new shirt's data</title>
+	<title>Add a new shirts data</title>
 </head>
 <body>
-	<h1> shirt's form </h1>
+	<h1> shirts form </h1>
 	<form method="post" action="edit1.php">
 		<?php
-		mysql_connect("localhost","student2","111");
-		mysql_query("use shirt's");
+		mysql_connect("localhost","-u root"," ");
+		mysql_query("use shirts");
 		$id=$_REQUEST['id'];
-		$f = mysql_query("select * from shirt's where id=$id;");
+		$f = mysql_query("select * from shirts where id=$id;");
 		$r = mysql_fetch_array($f);
 		?>
 		<p>
