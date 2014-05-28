@@ -1,9 +1,9 @@
 <html>
 <head>
-	<title>Add a new shirt's data</title>
+	<title>Add a new shirts data</title>
 </head>
 <body>
-	<h1> shirt's form </h1>
+	<h1> shirts form </h1>
 	<form method="post" action="add1.php">
 		<p>
 		<label> brand:
