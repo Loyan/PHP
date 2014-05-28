@@ -1,6 +1,6 @@
 <?php
 
-mysql_connect("localhost","student2","111");
+mysql_connect("localhost","-u root","");
 echo "<table border=2>\n";
 echo "<tr><td>brand</td>
             <td>size</td>
@@ -9,8 +9,8 @@ echo "<tr><td>brand</td>
             <td>edit</td>
             <td>delete</td>
             </tr>\n";
-mysql_query("use shirt's");
-$r = mysql_query("select * from shirt's");
+mysql_query("use shirts");
+$r = mysql_query("select * from shirts");
 $n = mysql_num_rows($r);
 for ($i=0;$i<$n;$i++)
 {
